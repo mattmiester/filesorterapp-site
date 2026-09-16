@@ -181,6 +181,9 @@ h1 {
 .appstore-badge {
   display: inline-block;
   line-height: 0;
+  padding: 0;
+  background: none;
+  border-radius: 0;
   transition: transform 0.15s ease, opacity 0.15s ease;
 }
 
