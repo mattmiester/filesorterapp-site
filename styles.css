@@ -87,6 +87,8 @@ a { color: inherit; }
 
 .brand svg { flex: none; }
 
+.brand-icon { flex: none; display: block; border-radius: 22%; box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08); }
+
 .nav-links {
   display: flex;
   gap: 26px;
