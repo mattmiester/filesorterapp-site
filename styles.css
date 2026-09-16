@@ -179,26 +179,14 @@ h1 {
 }
 
 .appstore-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 11px;
-  background: #111;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 12px;
-  padding: 10px 20px 10px 16px;
-  line-height: 1.2;
+  display: inline-block;
+  line-height: 0;
   transition: transform 0.15s ease, opacity 0.15s ease;
 }
 
 .appstore-badge:hover { transform: translateY(-1px); opacity: 0.92; }
 
-.appstore-badge .badge-small { display: block; font-size: 11px; opacity: 0.85; }
-.appstore-badge .badge-big { display: block; font-size: 18px; font-weight: 600; letter-spacing: -0.01em; }
-
-@media (prefers-color-scheme: dark) {
-  .appstore-badge { background: #F1EAE0; color: #1C1917; }
-}
+.appstore-badge img { display: block; width: 150px; height: 50px; }
 
 .cta-note {
   font-size: 14px;
